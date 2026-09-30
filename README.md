@@ -29,7 +29,9 @@
 
 - List any third-party assets used in the project (e.g., sound effects, images, fonts) and provide proper attribution.
 - Acknowledge any resources, tutorials, or references you used to help complete the project.
-
+https://css-tricks.com/snippets/svg/curved-text-along-path/
+https://www.accio.com/plp/tea-infused-ice-skin-mooncakes
+Photo by <a href="https://unsplash.com/@kiwihug?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Kiwihug</a> on <a href="https://unsplash.com/photos/plain-beige-cardboard-or-recycled-paper-texture-qv05FvdE26k?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 ## Future Enhancements
 
 - List any features you would’ve liked to add if given more time
