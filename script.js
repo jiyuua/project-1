@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
       duration: 1,
    });
    timeline.to(".moon", {
-      scale: () => gsap.utils.random(1, 1.2),
+      scale: () => gsap.utils.random(0.8, 1.1),
       duration: 1,
    });
 
