@@ -24,6 +24,11 @@ document.addEventListener("DOMContentLoaded", (event) => {
    });
 });
 
+// sound
+window.onload = function () {
+   document.getElementById("bg-music").play();
+};
+
 function scrollNext(event) {
    const parentDiv = event.target.parentElement.nextElementSibling;
    // console.log(parentDiv);
