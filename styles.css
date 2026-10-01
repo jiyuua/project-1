@@ -71,16 +71,16 @@ body {
 
 .scroll-next {
    background-color: aqua;
-   width: 150px;
+   width: 250px;
    height: 100%;
-   opacity: 0;
+   /* opacity: 0; */
 }
 
 .scroll-back {
    background-color: rgb(180, 56, 56);
-   width: 150px;
+   width: 250px;
    height: 100%;
-   opacity: 0;
+   /* opacity: 0; */
 }
 
 /* page 1 */
@@ -147,10 +147,31 @@ body {
 }
 
 @media (max-width: 400px) {
+   #mooncake {
+      top: 150px;
+      max-width: 300px;
+   }
+
    .page {
-      font-size: 20px;
+      font-size: 18px;
+   }
+
+   .page p {
+      width: 300px;
    }
    .sun-grid {
       grid-template-columns: repeat(2, auto);
+   }
+
+   .scroll-next {
+      width: 650px;
+   }
+
+   .scroll-back {
+      width: 650px;
+   }
+
+   .moon img {
+      max-width: 250px;
    }
 }

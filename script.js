@@ -78,7 +78,7 @@ scroll();
 
 const sunImg = document.querySelectorAll("#sun");
 const arrowEffect = document.getElementById("arrow-effect");
-console.log(arrowEffect);
+// console.log(arrowEffect);
 sunImg.forEach((sun) => {
    sun.addEventListener("click", () => {
       sun.style.visibility = "hidden";
