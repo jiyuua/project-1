@@ -16,15 +16,21 @@
          rel="stylesheet" />
    </head>
    <body>
+      <audio id="arrow-effect">
+         <source src="images/arrow.mp3" type="audio/mpeg" />
+      </audio>
       <div class="story-div">
          <!-- page 1 -->
          <div class="page-div">
+            <audio id="bg-music" controls autoplay>
+               <source src="images/bg.mp3" type="audio/mpeg" />
+            </audio>
             <div class="page">
                <p>10 suns rose all at once bringing anguish to people</p>
                <div class="sun-grid">
                   <img id="sun" src="images/sun.png" />
                   <img id="sun" src="images/sun.png" />
-                  <img id="sun" src="images/sun.png" />
+                  <img id="only-sun" src="images/sun.png" />
                   <img id="sun" src="images/sun.png" />
                   <img id="sun" src="images/sun.png" />
                   <img id="sun" src="images/sun.png" />
@@ -38,13 +44,13 @@
                   light
                </p>
             </div>
-            <div class="desktop-scroll"></div>
-            <div class="mobile-click"></div>
+            <div class="scroll-next"></div>
          </div>
 
          <!-- page 2 -->
 
          <div class="page-div">
+            <div class="scroll-back"></div>
             <div class="page">
                <p>An immortal gifts Hou Yi an elixir of immortality for his bravery</p>
                <div class="elixir">
@@ -55,52 +61,53 @@
                   Chang'e so he does not drink it and leaves it for Chang'e to keep safe
                </p>
             </div>
-            <div class="desktop-scroll"></div>
-            <div class="mobile-click"></div>
+            <div class="scroll-next"></div>
          </div>
 
          <!-- page 3 -->
 
          <div class="page-div">
+            <div class="scroll-back"></div>
             <div class="page">
                <p>
-                  One of Hou Yi's apprentices, Feng Meng knows of the elixir and breaks
+                  One of Hou Yi's apprentices, Feng Meng learns of the elixir and breaks
                   into their house
                </p>
+
                <div class="change">
                   <img src="images/chang e.png" />
-                  <img src="images/moon.png" />
                </div>
+
                <p>
                   Chang'e refused to hand over the elixir and drinks it herself, flying
                   into the sky and taking residence on the moon to stay near Hou Yi
                </p>
             </div>
-            <div class="desktop-scroll"></div>
-            <div class="mobile-click"></div>
+            <div class="scroll-next"></div>
          </div>
 
          <!-- page 4 -->
          <div class="page-div">
+            <div class="scroll-back"></div>
             <div class="page">
                <p>
                   Hou Yi come home to this. Heartbroken, he displays fruits and cakes
                   Chang'e likes.
                </p>
                <div class="moon">
-                  <img src="images/moon.png" />
+                  <img class="moon" src="images/moon.png" />
                </div>
                <p>
                   People hearing what happened join Hou Yi in giving sacrifices to
                   Chang'e, she became known as the Moon Goddess
                </p>
             </div>
-            <div class="desktop-scroll"></div>
-            <div class="mobile-click"></div>
+            <div class="scroll-next"></div>
          </div>
 
          <!-- page 5 -->
          <div class="page-div">
+            <div class="scroll-back"></div>
             <div class="page">
                <p>
                   Mid-Autumn Festival is celebrated on every fifteeth day of the eighth
@@ -108,6 +115,7 @@
                   between families and friends. There are many origins and differing ways
                   of celebrating this holiday, this is one of them
                </p>
+               <a href="index.html">Home</a>
             </div>
          </div>
       </div>

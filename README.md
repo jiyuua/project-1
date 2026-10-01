@@ -1,5 +1,4 @@
-# MEDP33100 - Project 1 Interactive Storytelling 
-[EDIT THIS FILE for documentation]
+# MEDP33100 - Project 1 Interactive Storytelling
 
 ## Live Demo
 
@@ -9,29 +8,36 @@
 
 - Briefly describe the purpose of the project.
 - Explain the story you are telling through the webpage and the key interactive elements.
+  This project tells the story of Chang'e and Hou Yi. This is a well-known story behind the Mid-Autumn Festival, a widely celebrated holiday in Asian countries.
+  Clicking the mooncake will take you to a short scrollable retelling with immersive music and animations.
 
 ## Features
 
 - List the key features of the project, including:
-    - **Animations**: Describe the animations you implemented (e.g., CSS transitions, GSAP effects).
-    - **Sound Effects**: Specify where sound effects are used and how they enhance the user experience.
-    - **User-triggered Events**: Explain how users interact with the page (e.g., clicking, scrolling, hovering) and how the page responds.
-    - **Responsive Design**: Explain how the design adapts to different devices (e.g., desktop, tablet, mobile).
+   - **Animations**: GSAP effects for scaling images like suns and moon to make them more engaging for users, moving Chang'e while shrinking to creating illusion of her floating away
+   - **Sound Effects**: BG music autoplays when entering the story to immerse users and sound effect when user clicks on sun images to make it sound like it is being shot down by an arrow
+   - **User-triggered Events**: When users click on sun images, corresponding suns will disappear. When users hover or click on the far left and right side of the page, the page will smoothly scroll to the next.
+   - **Responsive Design**: Change grid layout as well as font sizes and text width for better screen experience
 
 ## Technologies Used
 
 - List the technologies and tools used in the project:
-    - **Languages**: HTML, CSS, JavaScript
-    - **Libraries**: (e.g., GSAP for animations)
-    - **Other**: GitHub Pages for hosting, Figma for design
+   - **Languages**: HTML, CSS, JavaScript
+   - **Libraries**: GSAP
+   - **Other**: GitHub Pages for hosting, Krita for artworks
 
 ## Credits
 
-- List any third-party assets used in the project (e.g., sound effects, images, fonts) and provide proper attribution.
-- Acknowledge any resources, tutorials, or references you used to help complete the project.
-https://css-tricks.com/snippets/svg/curved-text-along-path/
-https://www.accio.com/plp/tea-infused-ice-skin-mooncakes
-Photo by <a href="https://unsplash.com/@kiwihug?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Kiwihug</a> on <a href="https://unsplash.com/photos/plain-beige-cardboard-or-recycled-paper-texture-qv05FvdE26k?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+[Ephesis Font](https://fonts.google.com/specimen/Ephesis?query=Ephesis&preview.script=Latn)
+[Short Stack Font](https://fonts.google.com/specimen/Short+Stack?preview.script=Latn)
+[Mooncake Button](https://www.accio.com/plp/tea-infused-ice-skin-mooncakes)
+[Curved Text Code Snippet](https://css-tricks.com/snippets/svg/curved-text-along-path/)
+[BG Paper Texture by Kiwihug](https://unsplash.com/photos/plain-beige-cardboard-or-recycled-paper-texture-qv05FvdE26k?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+[Arrow Sound Effect by freesound_community](https://pixabay.com/users/freesound_community-46691455/?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=87260)
+[BG Music by Dmitrii Spis](https://pixabay.com/users/nastelbom-48128234/?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=501705)
+
 ## Future Enhancements
 
-- List any features you would’ve liked to add if given more time
+- Adding more images that add to the story, provide further user interactions such as offerings to Chang'e, etc.
+- Further testing of scrolling feature, adding delay so user won't accidently scroll to other pages
+- Improving styling of index page
